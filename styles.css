@@ -250,4 +250,9 @@ footer a:hover {
 }
 
 
-
+/* Changes for mobile */
+@media screen and (max-width: 600px) {
+  .grid-container {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
