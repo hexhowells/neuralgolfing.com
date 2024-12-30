@@ -98,18 +98,13 @@ nav a:hover {
  */
 .info-box, .leaderboard {
     flex: 1;
-    padding: 20px;
+    padding: 20px 50px 60px;
     background: #2b2b2b;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.5);
     border-radius: 8px;
     color: #f5f5f5;
     margin: 10px auto;
     padding-bottom: 60px;
-}
-
-.info-box {
-    padding-left: 50px;
-    padding-right: 50px;
 }
 
 .info-box h2, .leaderboard h2 {
@@ -143,7 +138,6 @@ nav a:hover {
  */
 .leaderboard {
     max-width: 1600px;
-    padding: 20px;
     background: #2b2b2b;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.5);
     border-radius: 8px;
